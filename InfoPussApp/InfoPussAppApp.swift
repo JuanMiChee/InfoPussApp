@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct InfoPussAppApp: App {
+    let service = URLSessionCatsService()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CatsMainView(viewModel: CatsMainViewModel(service: service))
         }
     }
 }

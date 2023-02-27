@@ -11,6 +11,13 @@
 		7398F33E29AC342D00F01BDF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7398F33D29AC342D00F01BDF /* ContentView.swift */; };
 		7398F34029AC342F00F01BDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7398F33F29AC342F00F01BDF /* Assets.xcassets */; };
 		7398F34329AC342F00F01BDF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7398F34229AC342F00F01BDF /* Preview Assets.xcassets */; };
+		7398F34B29AC346B00F01BDF /* URLSessionUserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7398F34A29AC346B00F01BDF /* URLSessionUserService.swift */; };
+		7398F34E29AC35AD00F01BDF /* CatsInfoJSONModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7398F34D29AC35AD00F01BDF /* CatsInfoJSONModel.swift */; };
+		7398F35229AC385300F01BDF /* CatsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7398F35129AC385300F01BDF /* CatsService.swift */; };
+		7398F35529AC3D2F00F01BDF /* CatsMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7398F35429AC3D2F00F01BDF /* CatsMainView.swift */; };
+		7398F35829AC3D4600F01BDF /* CatsMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7398F35729AC3D4600F01BDF /* CatsMainViewModel.swift */; };
+		7398F35B29AC400F00F01BDF /* CatsViewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7398F35A29AC400F00F01BDF /* CatsViewContent.swift */; };
+		7398F35D29AC51F500F01BDF /* CatsInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7398F35C29AC51F500F01BDF /* CatsInfoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,14 @@
 		7398F33D29AC342D00F01BDF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7398F33F29AC342F00F01BDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7398F34229AC342F00F01BDF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7398F34A29AC346B00F01BDF /* URLSessionUserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionUserService.swift; sourceTree = "<group>"; };
+		7398F34D29AC35AD00F01BDF /* CatsInfoJSONModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsInfoJSONModel.swift; sourceTree = "<group>"; };
+		7398F35129AC385300F01BDF /* CatsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsService.swift; sourceTree = "<group>"; };
+		7398F35429AC3D2F00F01BDF /* CatsMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsMainView.swift; sourceTree = "<group>"; };
+		7398F35729AC3D4600F01BDF /* CatsMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsMainViewModel.swift; sourceTree = "<group>"; };
+		7398F35A29AC400F00F01BDF /* CatsViewContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsViewContent.swift; sourceTree = "<group>"; };
+		7398F35C29AC51F500F01BDF /* CatsInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsInfoModel.swift; sourceTree = "<group>"; };
+		7398F35E29AC599C00F01BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +66,12 @@
 		7398F33A29AC342D00F01BDF /* InfoPussApp */ = {
 			isa = PBXGroup;
 			children = (
+				7398F35E29AC599C00F01BDF /* Info.plist */,
+				7398F35929AC3FFE00F01BDF /* ViewContent */,
+				7398F35629AC3D3800F01BDF /* ViewModel */,
+				7398F35329AC3D1700F01BDF /* Scenes */,
+				7398F34C29AC359400F01BDF /* Models */,
+				7398F34929AC345000F01BDF /* Service */,
 				7398F33B29AC342D00F01BDF /* InfoPussAppApp.swift */,
 				7398F33D29AC342D00F01BDF /* ContentView.swift */,
 				7398F33F29AC342F00F01BDF /* Assets.xcassets */,
@@ -65,6 +86,48 @@
 				7398F34229AC342F00F01BDF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7398F34929AC345000F01BDF /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				7398F34A29AC346B00F01BDF /* URLSessionUserService.swift */,
+				7398F35129AC385300F01BDF /* CatsService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		7398F34C29AC359400F01BDF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7398F34D29AC35AD00F01BDF /* CatsInfoJSONModel.swift */,
+				7398F35C29AC51F500F01BDF /* CatsInfoModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7398F35329AC3D1700F01BDF /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				7398F35429AC3D2F00F01BDF /* CatsMainView.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		7398F35629AC3D3800F01BDF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7398F35729AC3D4600F01BDF /* CatsMainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7398F35929AC3FFE00F01BDF /* ViewContent */ = {
+			isa = PBXGroup;
+			children = (
+				7398F35A29AC400F00F01BDF /* CatsViewContent.swift */,
+			);
+			path = ViewContent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +201,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7398F33E29AC342D00F01BDF /* ContentView.swift in Sources */,
+				7398F35529AC3D2F00F01BDF /* CatsMainView.swift in Sources */,
+				7398F35D29AC51F500F01BDF /* CatsInfoModel.swift in Sources */,
 				7398F33C29AC342D00F01BDF /* InfoPussAppApp.swift in Sources */,
+				7398F35229AC385300F01BDF /* CatsService.swift in Sources */,
+				7398F34E29AC35AD00F01BDF /* CatsInfoJSONModel.swift in Sources */,
+				7398F35B29AC400F00F01BDF /* CatsViewContent.swift in Sources */,
+				7398F35829AC3D4600F01BDF /* CatsMainViewModel.swift in Sources */,
+				7398F34B29AC346B00F01BDF /* URLSessionUserService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +340,7 @@
 				DEVELOPMENT_TEAM = 5DJ695UZH2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InfoPussApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +370,7 @@
 				DEVELOPMENT_TEAM = 5DJ695UZH2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InfoPussApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

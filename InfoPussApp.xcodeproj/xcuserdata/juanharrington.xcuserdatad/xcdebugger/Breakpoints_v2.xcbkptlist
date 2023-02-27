@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "FA613D5F-48EC-4888-998D-6D34E40C0293"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7A2C6C32-72F7-4F39-8437-8C0099BB9816"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InfoPussApp/Service/URLSessionUserService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "fetchCatsInfo()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7A2C6C32-72F7-4F39-8437-8C0099BB9816 - 5ad85b28677dc0ec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for InfoPussApp.URLSessionCatsService.fetchCatsInfo() async throws -&gt; Swift.Array&lt;InfoPussApp.CatsInfoModel&gt;"
+                  moduleName = "InfoPussApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juanharrington/InfoPussApp/InfoPussApp/Service/URLSessionUserService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "476">
+               </Location>
+               <Location
+                  uuid = "7A2C6C32-72F7-4F39-8437-8C0099BB9816 - 2298b781d4fa6884"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (InfoPussApp.CatInfoJSONModel) -&gt; InfoPussApp.CatsInfoModel in InfoPussApp.URLSessionCatsService.fetchCatsInfo() async throws -&gt; Swift.Array&lt;InfoPussApp.CatsInfoModel&gt;"
+                  moduleName = "InfoPussApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juanharrington/InfoPussApp/InfoPussApp/Service/URLSessionUserService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "93B0BF46-0695-4495-A740-21E01ED7CF6E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InfoPussApp/Service/URLSessionUserService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "fetchCatsInfo()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
